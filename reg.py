@@ -56,7 +56,7 @@ try:
                 "email": email,
                 "password": password,
                 "password_confirm": password,
-                "invite_code": get_invite_code()  # Use decrypted invite code
+                "invite_code": get_invite_code()
             }
 
             try:
